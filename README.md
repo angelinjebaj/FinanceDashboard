@@ -1,16 +1,103 @@
-# React + Vite
+# 💰 Finance Dashboard UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean and responsive finance dashboard built using React.js and Tailwind CSS.  
+This project focuses on frontend design, component structure, and user experience for managing financial data.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Overview
 
-## React Compiler
+This application allows users to:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- View financial summaries (Balance, Income, Expenses)
+- Explore and manage transactions
+- Understand spending patterns through insights
+- Experience role-based UI (Admin / Viewer)
 
-## Expanding the ESLint configuration
+This is a frontend-focused project using mock data, designed to demonstrate real-world dashboard behavior.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+
+### 📊 Dashboard
+- Summary cards for Balance, Income, and Expenses
+- Visual placeholders for charts (trend & category)
+- Recent transactions preview
+- Quick insights section
+
+---
+
+### 📋 Transactions
+- List of all transactions with:
+  - Date
+  - Category
+  - Type (Income / Expense)
+  - Amount
+- Features:
+  - Search and filtering
+  - Sorting options
+- Role-based actions:
+  - Admin → Add, Edit, Delete
+  - Viewer → Read-only
+
+---
+
+### ➕ Add Transaction
+- Modal form to add new transactions
+- Includes validation
+- Simple and user-friendly UI
+
+---
+
+### 💡 Insights
+- Highlights:
+  - Highest spending category
+  - Monthly comparison
+  - Savings overview
+- Presented in clean card layout
+
+---
+
+### ⚙️ Settings
+- User profile display
+- Role indication
+- Basic preferences (UI only)
+
+---
+
+## 🎨 Theming System
+
+- Uses CSS variables for global styling
+- All colors are controlled from a single source
+- Makes it easy to update theme across the entire app
+
+---
+
+## 🧠 Tech Stack
+
+- React.js (Vite)
+- Tailwind CSS
+- JavaScript
+
+---
+
+## 📱 Responsive Design
+
+- Fully responsive layout
+- Works across desktop and mobile devices
+- Clean and minimal UI
+
+---
+
+## 📦 State Management
+
+- Managed using React state
+- Handles:
+  - Transactions
+  - Filters
+  - Role switching
+
+---
+
+
